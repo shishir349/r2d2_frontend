@@ -1,0 +1,48 @@
+body{
+  background: black;
+}
+#movies img, #movie img{
+  width:100%;
+}
+
+@media(min-width:960px){
+  #movies .col-md-3 .well{
+    height: 390px;
+  }
+
+  #movies .col-md-3 img{
+    height:240px;
+  }
+}
+
+h3 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.sp{
+  height: 40px;
+  width: 20px;
+}
+
+.title{
+color: aqua;
+font-size: 25px;
+}
+
+.overview{
+background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+  text-align: center;
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+  animation: rainbow 8s ease infinite;
+
+}
+.box1{
+  background-color: coral;
+}
+.box2{
+  background-color: rgb(183, 135, 238);
+}
+

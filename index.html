@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Movie Information</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://w3bits.com/wp-content/themes/w/labs.css">
+  </head>
+  <body>
+    
+
+    <div class="container" >
+        <div class="navbar-header" style="background-color: white;" >
+            <a class="navbar-brand" href="http://shishir.epizy.com"><img src="images/portfolio.png" style="height: 80px; width:150px;"></a>
+           
+
+          </div>
+    	<div class="jumbotron" style="background-color:darkseagreen;">
+          
+	    	<h2 class="text-center"><span style="color:rgb(236, 18, 55)" class="sp">S</span>earch  <span style="color:rgba(236, 233, 8, 0.822)" class="sp">A</span>ny <span class="sp" style="color:rgb(17, 186, 243)">M</span>ovie</h2>
+	    	<form id="searchForm">
+	    		<input type="text" class="form-control" id="searchText" placeholder="Start typing your movie name, then press Enter..." onkeydown="ready()">
+	    	</form>
+	    </div>
+    </div>
+
+    <div class="container">
+      <div id="movies" class="row"></div>
+    </div>
+
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="js/main.js"></script>
+  </body>
+</html>
